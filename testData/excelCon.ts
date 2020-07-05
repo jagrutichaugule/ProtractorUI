@@ -12,7 +12,7 @@ export class ExcelCon {
     this.sDataArray = stringDataArray;
 
     const wb = new Workbook();
-    wb.xlsx.readFile("/Users/scorpio/Documents/Syntel Doc/Book1.xlsx").then(function() {
+    wb.xlsx.readFile("/Documents/Book1.xlsx").then(function() {
         const sheet = wb.getWorksheet("Sheet1");
         const RowCount = sheet.rowCount;
         const ColCount = sheet.columnCount;
