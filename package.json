@@ -11,7 +11,7 @@
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start"
   },
-  "author": "Sandeep",
+  "author": "Jagruti",
   "devDependencies": {
     "@types/cucumber": "^6.0.1",
     "@types/node": "^10.17.26",
