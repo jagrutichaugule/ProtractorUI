@@ -1,4 +1,4 @@
-import { ExcelCon } from "../pageModules/excelCon";
+import { ExcelCon } from "../testData/excelCon";
 import { HomePageObject } from "../pageModules/homePage";
 
 const { Then, Given, When, And } = require("cucumber");
